@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {border: none;}
+
+/* image styles */
+    .bg-image {
+        background-image: url('images/bacon-pan.jpg');
+        background-size: cover;
+        min-height: 10rem;
+}
+
+/* universal styles & utility classes */
+    body { 
+        font-family: 'Catamaran', sans-serif;
+        color: black;
+}
+
+
+.padded         { padding: 5%;}
+.padded-small   { padding: 1 rem;}
+.padded-large   { padding: 10%;}
+
+.bg-dark { 
+    background-color: black;
+    color: rgb(248, 247, 247);
+}
+
+.tall-50    { min-height: 50vh; }
+.tall-60    { min-height: 60vh; }
+.tall-70    { min-height: 70vh; }
+.tall-80    { min-height: 80vh; }
+.tall-90    { min-height: 90vh; }
+.tall-100   { min-height: 100vh; }
+
+
+/* Typograhpy styles */
+
+    h2  { 
+        font-size: 2.5rem;
+        line-height: 1.1;
+        margin-bottom: 1rem;
+}
+
+    h3  {line-height: 1;}
+
+    p   { 
+        font-weight: 200;
+        line-height: 1.5;
+        margin-bottom: 1rem;
+}
+
+P:last-child { margin-bottom: 0;}
+
+    a   {
+        color: inherit;
+        text-decoration: none;
+}  
+
+    a:hover {
+        color: #ffbe00;
+}
+
+
+.featured-text  { color: #ffbe00;}
+.white-text     { color: rgb(255, 255, 255);}
+
+.small-text     { font-size: 1.5rem;}
+.medium-text    { 
+    font-size: 2rem;
+    line-height: 1.1;
+}
+.big-text       { font-size: 4.5rem;}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: rgb(120,120,125)
+}
+.quote {
+    font-size: 6rem;
+    display: inline-block;
+    color: rgb(120,120,125);
+    
+
+}
+
+
+.font-weight-light  {font-weight: 200;}
+.font-weight-normal {font-weight: normal;}
+.font-weight-bold   {font-weight: 800;}
+
+
+.text-left  { text-align: left;}
+.text-center{ text-align: center;}
+.text-right { text-align: right;}
+
+
+
+/* header styles & footer */
+
+    header {
+        background-image: url('/images/bacon-pan.jpg');
+        background-size: cover;
+        background-position: center;
+}
+
+    header h3 {
+        font-size: 5.5rem;
+        line-height: 1;
+}
+
+    footer a {
+        border: none;
+}
+
+
+/* background images */
+
+    .bg-baconegg {
+        background-image: url('/images/bacon-egg.jpg');
+        background-position: center;
+}
+
+    .bg-baconcheese {
+        background-image: url('/images/bacon-cheese.jpg');
+        background-position: 50% 75%;
+}
+
+
+/* icon grid */
+    .fas {
+        display: block;
+        text-align: center;
+        margin-bottom: 2rem;
+        font-size: 3rem;
+}
+
+
+/* plate */
+    .bg-plate {
+        background-image: url('/images/bacon-plate.jpg');
+        background-position: 50% 57%;
+}
