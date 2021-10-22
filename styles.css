@@ -8,7 +8,7 @@ html {border: none;}
 
 /* image styles */
     .bg-image {
-        background-image: url('images/bacon-pan.jpg');
+        background-image: url('images/date-couple.jpg');
         background-size: cover;
         min-height: 10rem;
 }
@@ -16,7 +16,7 @@ html {border: none;}
 /* universal styles & utility classes */
     body { 
         font-family: 'Catamaran', sans-serif;
-        color: black;
+        color: inherit;
 }
 
 
@@ -25,8 +25,8 @@ html {border: none;}
 .padded-large   { padding: 10%;}
 
 .bg-dark { 
-    background-color: black;
-    color: rgb(248, 247, 247);
+    background-color: #590d22;
+    color: #fff0f3;
 }
 
 .tall-50    { min-height: 50vh; }
@@ -61,11 +61,11 @@ P:last-child { margin-bottom: 0;}
 }  
 
     a:hover {
-        color: #ffbe00;
+        color: #c9184a;
 }
 
 
-.featured-text  { color: #ffbe00;}
+.featured-text  { color: #c9184a;}
 .white-text     { color: rgb(255, 255, 255);}
 
 .small-text     { font-size: 1.5rem;}
@@ -73,16 +73,19 @@ P:last-child { margin-bottom: 0;}
     font-size: 2rem;
     line-height: 1.1;
 }
-.big-text       { font-size: 4.5rem;}
+.big-text       { 
+    font-size: 4.5rem;
+    color: #800f2f;
+}
 
 .subtitle {
     font-size: 1.2rem;
-    color: rgb(120,120,125)
+    color: #800f2f;
 }
 .quote {
     font-size: 6rem;
     display: inline-block;
-    color: rgb(120,120,125);
+    color: #800f2f;
     
 
 }
@@ -102,9 +105,10 @@ P:last-child { margin-bottom: 0;}
 /* header styles & footer */
 
     header {
-        background-image: url('/images/bacon-pan.jpg');
+        background-image: url('/images/date-couple.jpg');
         background-size: cover;
         background-position: center;
+        color: white;
 }
 
     header h3 {
@@ -116,31 +120,47 @@ P:last-child { margin-bottom: 0;}
         border: none;
 }
 
+/* navigation*/
+    nav {
+        background-color: #800f2f;
+        color: white;
+        padding: 2.5%;  
+        text-align: center;
+        letter-spacing: 0.3em;     
+    }
 
 /* background images */
 
-    .bg-baconegg {
-        background-image: url('/images/bacon-egg.jpg');
+    .bg-date-girl {
+        background-image: url('/images/date-girl.jpg');
         background-position: center;
 }
 
-    .bg-baconcheese {
-        background-image: url('/images/bacon-cheese.jpg');
+    .bg-date-boy {
+        background-image: url('/images/date-boy.jpg');
         background-position: 50% 75%;
 }
 
-
 /* icon grid */
-    .fas {
+    .fa-regular {
         display: block;
         text-align: center;
         margin-bottom: 2rem;
         font-size: 3rem;
+        color: inherit;
 }
-
 
 /* plate */
-    .bg-plate {
-        background-image: url('/images/bacon-plate.jpg');
+    .bg-date-bike {
+        background-image: url('/images/date-bike.jpg');
         background-position: 50% 57%;
 }
+
+/* sign up 
+    .padded-centered-contact {
+        display: block;
+        text-align: center;
+        margin-bottom: 2rem;
+        font-size: 3rem;
+        color: inherit;
+    }*/
